@@ -1,0 +1,8 @@
+from calendar import *
+year=int(input("enter year"))
+x=isleap(year)
+if x==True:
+    print(year,"is leap year")
+else:
+    print (year,"is not a leap year")
+
